@@ -1,3 +1,7 @@
+*****************************************************
+By `Johnson Matoke <https://github.com/johniez254>`_
+*****************************************************
+
 ###################
 What is CodeIgniter
 ###################
@@ -11,7 +15,7 @@ you creatively focus on your project by minimizing the amount of code needed
 for a given task.
 
 ###################
-Installing the IMS
+Installing the Inventory Management System (IMS)
 ###################
  
 One is required to follow the instruction/or procedures as shown in the installation above for Adobe Dreamweaver and Xampp Server. The installation of the above enables the system to have PHP and MySQL installed in the directory; C:\Xampp directory and all other program files.
@@ -20,20 +24,54 @@ One is required to follow the instruction/or procedures as shown in the installa
 Running the IMS Project
 #######################
 
-i)	Copy the folder containing the project and paste it in the folder named htdocs directory found in Xampp Server. 	This is the default publishing folder i.e. C:\Xampp\htdocs for all systems installed using Xampp Server 3.2.2.
+i)	Create a local folder named "**inventory**" in htdocs directory found in Xampp Server. 	This is the default publishing folder i.e. C:\Xampp\htdocs for all systems installed using Xampp Server 3.2.2.
 
-ii)	Once the project files are pasted into the htdocs directory, open the folder that is in there which contains 		the project files.
+ii)	Extract/clone/copy-paste the system files above to your newly locally-created **inventory** folder, ensure it contains the following project sub-folders and files:
 
-iii)Go to the Xampp application, start Xampp. On Xampp control panel, start Apache and MySQL services by clicking the buttons.
+.. list-table:: **xampp/htdocs/inventory/**
+   :widths: 25 75
+   :header-rows: 1
 
-iv)	To set up the database environment, go to your htdocs folder (named inventory), select the folder with the 			project and drag it to your browser then change the link URL to <http://localhost /inventory/>. This will be 		able to redirect to the IMS installation wizard. Just follow the prompts of installation providing the 				hostname, username, database name, and password.
+   * - Folder/File
+     - Description
+					
+   * - ``application/``
+     - contains all the system code
+					
+   * - ``components/``
+     - contains bootstrap css and javascripsts files, custom system Javascript files e.t.c
+					
+   * - ``hooks/``
+     - codeigniter hooks
+					
+   * - ``install/``
+     - IMS installation folder
+					
+   * - ``system/``
+     - contains core Codeigniter files
+					
+   * - ``uploads/``
+     - contains all system images, documents, pdf e.t.c
+					
+   * - ``.gitignore``
+     - ignored files
+					
+   * - ``.LICENCE``
+     - The obvious
+					
+
+iii) Go to the Xampp application, start Xampp. On Xampp control panel, start Apache and MySQL services by clicking the buttons.
+
+iv)	To set up the database environment, go to your htdocs folder (named inventory), select the folder with the project and drag it to your browser then change the link URL to <http://localhost/inventory/>. This will be 		able to redirect to the IMS installation wizard. Just follow the prompts of installation providing the hostname, username, database name, and password.
 
 
-#######################
-Super Admin Credentials
-#######################
-username: administrator
-password: admin
+###############################
+Super Admin Default Credentials
+###############################
+
+username: **administrator**
+
+password: **admin**
 
 
 *******************
@@ -56,17 +94,10 @@ Server Requirements
 *******************
 
 PHP version 5.6 or newer is recommended.
-
 It should work on 5.3.7 as well, but we strongly advise you NOT to run
 such old versions of PHP, because of potential security and performance
 issues, as well as missing features.
 
-************
-Installation
-************
-
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
 
 *******
 License
