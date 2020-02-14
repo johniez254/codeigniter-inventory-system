@@ -58,6 +58,9 @@ ii)	Extract/clone/copy-paste the system files above to your newly locally-create
 	   * - ``uploads/``
 	     - contains all system images, documents, pdf e.t.c
 
+	   * - ``.htaccess``
+	     - codeigniter configuration file
+
 	   * - ``.gitignore``
 	     - ignored files
 
