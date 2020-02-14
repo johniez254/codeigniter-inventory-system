@@ -33,36 +33,36 @@ i)	Create a local folder named "**inventory**" in htdocs directory found in Xamp
 
 ii)	Extract/clone/copy-paste the system files above to your newly locally-created **inventory** folder, ensure it contains the following project sub-folders and files:
 
-.. list-table:: **xampp/htdocs/inventory/**
-   :widths: 25 75
-   :header-rows: 1
+	.. list-table:: **xampp/htdocs/inventory/**
+	   :widths: 25 75
+	   :header-rows: 1
 
-   * - Folder/File
-     - Description
-					
-   * - ``application/``
-     - contains all the system code
-					
-   * - ``components/``
-     - contains bootstrap css and javascripsts files, custom system Javascript files e.t.c
-					
-   * - ``hooks/``
-     - codeigniter hooks
-					
-   * - ``install/``
-     - IMS installation folder
-					
-   * - ``system/``
-     - contains core Codeigniter files
-					
-   * - ``uploads/``
-     - contains all system images, documents, pdf e.t.c
-					
-   * - ``.gitignore``
-     - ignored files
-					
-   * - ``.LICENCE``
-     - The obvious
+	   * - Folder/File
+	     - Description
+
+	   * - ``application/``
+	     - contains all the system code
+
+	   * - ``components/``
+	     - contains bootstrap css and javascripsts files, custom system Javascript files e.t.c
+
+	   * - ``hooks/``
+	     - codeigniter hooks
+
+	   * - ``install/``
+	     - IMS installation folder
+
+	   * - ``system/``
+	     - contains core Codeigniter files
+
+	   * - ``uploads/``
+	     - contains all system images, documents, pdf e.t.c
+
+	   * - ``.gitignore``
+	     - ignored files
+
+	   * - ``.LICENCE``
+	     - The obvious
 					
 
 iii) Go to the Xampp application, start Xampp. On Xampp control panel, start Apache and MySQL services by clicking the buttons.
