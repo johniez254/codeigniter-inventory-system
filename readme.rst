@@ -1,3 +1,8 @@
+#############################
+codeigniter-inventory-system
+#############################
+A simple inventory management project in php using codeigniter framework.
+
 *****************************************************
 By `Johnson Matoke <https://github.com/johniez254>`_
 *****************************************************
